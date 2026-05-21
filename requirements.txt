@@ -1,0 +1,10 @@
+# Minimal runtime/training dependencies. Install a PyTorch build matching your CUDA first.
+torch
+torchvision
+transformers
+numpy
+pillow
+tqdm
+matplotlib
+imageio
+peft

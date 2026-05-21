@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Local data, weights, and outputs (keep only .gitkeep placeholders)
+datasets/**
+!datasets/**/
+!datasets/**/.gitkeep
+pretrained/**
+!pretrained/**/
+!pretrained/**/.gitkeep
+checkpoints/**
+!checkpoints/**/
+!checkpoints/**/.gitkeep
+!checkpoints/*.pt
+!checkpoints/**/*.pt
+outputs/**
+!outputs/**/
+!outputs/**/.gitkeep
+logs/
+*.log
+*.csv
+*.xlsx
+*.pth
+*.safetensors
+
+# Local/editor state
+.env
+.venv/
+.vscode/
+.idea/
+.DS_Store
+
+# OMX local state
+.omx/
+
+# Local screenshots / identity-sensitive review prep
+fig1.png
